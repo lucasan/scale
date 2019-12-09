@@ -1,0 +1,5 @@
+name: ScallablePath
+description: A module to gather information from a custom API
+package: custom
+type: module
+core: 8.x

@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function scale_theme($existing, $type, $theme, $path) {
+  return [
+    'posts_list' => [
+      'variables' => [
+        'posts' => []
+      ]
+    ],
+    'single_post' => [
+      'variables' => [
+        'post' => NULL
+      ]
+    ]
+  ];
+}

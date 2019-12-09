@@ -1,0 +1,15 @@
+scale.list:
+  path: '/posts'
+  defaults:
+    _controller: '\Drupal\scale\Controller\ScaleController::postsList'
+
+  requirements:
+    _permission: 'access content'
+
+scale.content:
+  path: '/posts/{id}'
+  defaults:
+    _controller: '\Drupal\scale\Controller\ScaleController::postContent'
+
+  requirements:
+    _permission: 'access content'

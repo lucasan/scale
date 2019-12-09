@@ -1,0 +1,13 @@
+{
+    "name": "scale",
+    "description": "A module to gather information from an API.",
+    "type": "drupal-module",
+    "authors": [
+        {
+            "name": "Luke Torres",
+            "role": "Author"
+        }
+    ],
+    "license": "GPL-2.0-or-later",
+    "minimum-stability": "dev"
+}

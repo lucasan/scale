@@ -1,0 +1,3 @@
+services:
+  scale.api:
+    class: Drupal\scale\Api\ScaleClient
