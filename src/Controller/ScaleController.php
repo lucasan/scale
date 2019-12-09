@@ -14,11 +14,6 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 class ScaleController extends ControllerBase {
 
   /**
-   * @var string
-   */
-  protected $baseUrl;
-
-  /**
    * @var ScaleClient
    */
   protected $client;
@@ -29,8 +24,6 @@ class ScaleController extends ControllerBase {
    * @param \Drupal\scale\Api\ScaleClient $client
    */
   public function __construct(ScaleClient $client) {
-    $this->baseUrl = 'https://jsonplaceholder.typicode.com/';
-
     $this->client = $client;
   }
 
